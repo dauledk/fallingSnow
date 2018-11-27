@@ -184,5 +184,5 @@ var fallingSnow = function() {
     }   
 }
 
-// var snow = fallingSnow();
-// snow.fall({selector: 'header'});
+var snow = fallingSnow();
+snow.fall({selector: 'html'});
