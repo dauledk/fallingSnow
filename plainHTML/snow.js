@@ -1,10 +1,10 @@
 var fallingSnow = function() {
     
     var defaultOptions = {
-        snowflakeSize: 3,
+        snowflakeSize: 3, // 1-5, 5 = huge flakes
         intensity: 50, /* 10-100, 100= Blizzard */
-        speed: 1,
-        selector: 'header'       
+        speed: 1, // 0.3-1.0, 1.0 = faster
+        selector: 'header'   // QuerySelector used to add flakes to an element     
     }
     
     var parameters = {};
