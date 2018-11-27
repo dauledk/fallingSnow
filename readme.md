@@ -19,3 +19,5 @@ snow.fall(
 ```
 
 
+# Compress:
+npm install uglify-js 

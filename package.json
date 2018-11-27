@@ -5,7 +5,8 @@
   "main": "snow.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "build": "uglifyjs plainHTML/snow.js --mangle toplevel --compress --output snow.min.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/dauledk/fallingSnow#readme",
   "devDependencies": {
-    "lite-server": "^2.4.0"
+    "lite-server": "^2.4.0",
+    "uglify-js": "^3.4.9"
   }
 }
