@@ -1,0 +1,24 @@
+{
+  "name": "fallingSnow",
+  "version": "1.0.0",
+  "description": "Falling Snow --- Add snowfall to any page Demo: http://varunnaik.github.io/fallingSnow/",
+  "main": "snow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dauledk/fallingSnow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dauledk/fallingSnow/issues"
+  },
+  "homepage": "https://github.com/dauledk/fallingSnow#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}

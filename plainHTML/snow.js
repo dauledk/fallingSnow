@@ -4,7 +4,7 @@ var fallingSnow = function() {
         snowflakeSize: 3,
         intensity: 40, /* 10-100, 100= Blizzard */
         speed: 1,
-        selector: 'html'       
+        selector: 'header'       
     }
     
     var parameters = {};
@@ -173,6 +173,7 @@ var fallingSnow = function() {
         },
     
         fall: function(params) {
+            console.log('I was called');
             this.cleanup();
             this.validateParameters(params);
             this.generateCanvas();
@@ -182,3 +183,6 @@ var fallingSnow = function() {
     
     }   
 }
+
+// var snow = fallingSnow();
+// snow.fall({selector: 'header'});
