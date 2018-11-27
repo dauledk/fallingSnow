@@ -4,7 +4,7 @@ var fallingSnow = function() {
         snowflakeSize: 3,
         intensity: 50, /* 10-100, 100= Blizzard */
         speed: 1,
-        selector: 'html'       
+        selector: 'header'       
     }
     
     var parameters = {};
@@ -183,3 +183,6 @@ var fallingSnow = function() {
     
     }   
 }
+
+var snow = fallingSnow();
+snow.fall({selector: 'html'});
