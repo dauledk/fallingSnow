@@ -173,7 +173,6 @@ var fallingSnow = function() {
         },
     
         fall: function(params) {
-            console.log('I was called');
             this.cleanup();
             this.validateParameters(params);
             this.generateCanvas();
